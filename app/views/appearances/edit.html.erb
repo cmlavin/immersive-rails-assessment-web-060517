@@ -1,0 +1,8 @@
+<h1>Form to Update an appearance</h1>
+<%= form_for :appearances do |f| %>
+<label>Guest name:</label>
+<%= f.text_field :guest_id %><br>
+<label>Rating:</label>
+<%= f.number_field :rating %><br>
+<%= f.submit %>
+<% end %>
